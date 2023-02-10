@@ -1,14 +1,13 @@
 package Stepdefinitions;
 
 import Pages.UdemyPages;
-import Util.DriverFactory;
-import io.appium.java_client.AppiumDriver;
+import util.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class UdemyStepDefinitions {
-    UdemyPages udemyPages = new UdemyPages((AppiumDriver) DriverFactory.getDriver());
+    UdemyPages udemyPages = new UdemyPages( DriverFactory.getDriver());
     @Given("Udemy Uygulamasini Ac")
     public void udemyUygulamasiniAc() {
         udemyPages.udemyUygulamasiniAc();
@@ -24,8 +23,8 @@ public class UdemyStepDefinitions {
         udemyPages.yazilimTestiYazVeAramaIconunaTikla();
     }
 
-    @Then("Yazilim Testi Kurslarinin Geldiğini Kontrol Et")
-    public void yazilimTestiKurslarininGeldiğiniKontrolEt() {
-        udemyPages.yazilimTestiKurslarininGeldiğiniKontrolEt();
+    @Then("Yazilim Testi Kurslarinin Geldigini Kontrol Et")
+    public void yazilimTestiKurslarininGeldiginiKontrolEt() {
+        udemyPages.yazilimTestiKurslarininGeldiginiKontrolEt();
     }
 }

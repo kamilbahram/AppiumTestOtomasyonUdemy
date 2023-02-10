@@ -1,4 +1,4 @@
-package Util;
+package util;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.MalformedURLException;
@@ -16,8 +16,8 @@ public  class DriverFactory {
         if (browser.equals("Android")) {
             capabilities.setCapability("platformName", "Android");
             capabilities.setCapability("uid", "R68T304QZER");
-            capabilities.setCapability("appPackage", "");
-            capabilities.setCapability("appActivity", "");
+            capabilities.setCapability("appPackage", "com.udemy.android");
+            capabilities.setCapability("appActivity", "com.udemy.android.SplashActivity");
         } else if (browser.equals("IOS")) {
             capabilities.setCapability("platformName", "IOS");
             capabilities.setCapability("uid", "");

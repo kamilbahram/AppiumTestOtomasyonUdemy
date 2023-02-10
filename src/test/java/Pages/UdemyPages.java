@@ -1,6 +1,6 @@
 package Pages;
 
-import Util.ElementHelper;
+import util.ElementHelper;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileBy;
 import org.openqa.selenium.By;
@@ -10,6 +10,7 @@ public class UdemyPages {
     AppiumDriver driver;
     WebDriverWait wait;
     ElementHelper elementHelper;
+    By gozAt = MobileBy.AndroidUIAutomator("new UiSelector().text(\"Gözat\")");
     By appOpen = MobileBy.AndroidUIAutomator("new UiSelector().text(\"Udemy\")");
     By searcButoon = MobileBy.AndroidUIAutomator("new UiSelector().text(\"Ara\")");
     public UdemyPages(AppiumDriver driver){
@@ -19,7 +20,7 @@ public class UdemyPages {
     }
 
     public void udemyUygulamasiniAc() {
-        driver.findElement(appOpen).click();
+        driver.findElement(gozAt).click();
     }
 
     public void aramaKutucugunaTikla() {
@@ -27,8 +28,10 @@ public class UdemyPages {
     }
 
     public void yazilimTestiYazVeAramaIconunaTikla() {
+        driver.findElement(searcButoon).click();
     }
 
-    public void yazilimTestiKurslarininGeldiğiniKontrolEt() {
+    public void yazilimTestiKurslarininGeldiginiKontrolEt() {
+        driver.findElement(searcButoon).click();
     }
 }
