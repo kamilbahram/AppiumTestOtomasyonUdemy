@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01057052-82dd-41da-a05c-e02d1ac2ca21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/arrow.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_01_2023_15_51_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_01_2023_15_51__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/CucumberReport/Reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/CucumberReport/Reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Features" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/ElementHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testRunners/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testRunners/runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/UdemyPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/UdemyPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Stepdefinitions/UdemyStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Stepdefinitions/UdemyStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/Udemy.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Udemy.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Paralel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Paralel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +21,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -54,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/arrow/Desktop/AppiumProjects-main/AppiumProjects-main/AppiumProjectN11",
+    "last_opened_file_path": "C:/Users/arrow/Desktop/TestCode/AppiumTestOtomasyonUdemy",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
